@@ -1,0 +1,86 @@
+.filter {
+  width: 80%;
+  display: flex;
+  gap: 50px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+.inputs {
+  width: 50%;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.filter label {
+  margin-bottom: 5px;
+}
+
+.select {
+  padding: 10px;
+  padding-right: 30px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("../../assets/svg/arrowDown.svg");
+  background-repeat: no-repeat;
+  background-position: right 0.7em top 50%;
+  background-size: 0.65em auto;
+  padding: 10px;
+  font-size: 18px;
+}
+.select::-ms-expand {
+  display: none;
+}
+.fromTo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fromTo input {
+  padding: 12px 10px;
+  width: 130px;
+  margin-right: 10px;
+}
+.fromTo label {
+  margin-right: 10px;
+}
+.price,
+.year {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.price div,
+.year div {
+  display: flex;
+}
+.submitButton {
+  padding: 10px 20px;
+  background-color: #833ae0;
+  color: white;
+  border: none;
+}
+
+@media screen and (max-width: 600px) {
+  .inputs {
+    width: 90%;
+  }
+  .filter {
+    gap: 20px;
+  }
+  .fromTo {
+    gap: 30px;
+  }
+  .price,
+  .year {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .submitButton {
+    margin: 20px 0;
+  }
+}

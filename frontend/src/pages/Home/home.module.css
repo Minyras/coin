@@ -1,0 +1,47 @@
+.arrow {
+  width: 10px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.cartContainer {
+  position: relative;
+}
+.cartContainer span {
+  position: absolute;
+  top: -14px;
+  right: -10px;
+  background-color: #833ae0;
+  color: white;
+  height: 20px;
+  z-index: 100;
+  border-radius: 100%;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart {
+  width: 30px;
+}
+.user {
+  width: 25px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 600px) {
+  .user {
+    width: 20px;
+  }
+  .cart {
+    width: 25px;
+  }
+}

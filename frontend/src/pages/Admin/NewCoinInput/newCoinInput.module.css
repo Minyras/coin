@@ -1,0 +1,67 @@
+.input {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.first,
+.second,
+.third {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.first input,
+.second input,
+.third input {
+  width: 100%;
+  padding: 18px 10px;
+  border-radius: none;
+  margin-right: 20px;
+  font-size: 18px;
+}
+.first,
+.second,
+.third {
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+.input span {
+  color: red;
+  font-weight: bold;
+}
+textarea {
+  height: 175px;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.submit {
+  background-color: #833ae0;
+  color: white;
+  width: 40%;
+  align-self: center;
+  padding: 10px 0;
+  border: none;
+  margin-bottom: 20px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+}
+.buttons a {
+  text-decoration: none;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .input {
+    flex-direction: column;
+  }
+}

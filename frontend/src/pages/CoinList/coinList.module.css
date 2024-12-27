@@ -1,0 +1,8 @@
+.nav span {
+  font-weight: 100;
+  font-size: 14px;
+  color: rgb(46, 45, 45);
+}
+.coinList {
+  overflow: hidden;
+}

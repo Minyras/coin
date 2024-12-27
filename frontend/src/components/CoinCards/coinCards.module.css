@@ -1,0 +1,45 @@
+.cards {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+h1 {
+  font-size: 28px;
+  font-weight: 400;
+}
+a {
+  font-weight: 100;
+  font-size: 14px;
+  color: rgb(46, 45, 45);
+}
+.coin {
+  width: 200px;
+}
+.arrow {
+  font-size: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    word-wrap: break-word;
+  }
+  .cards {
+    gap: 40px;
+    justify-content: center;
+  }
+  .card {
+    gap: 20px;
+    justify-content: center;
+  }
+}

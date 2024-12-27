@@ -1,0 +1,11 @@
+.header {
+  font-weight: 300;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.container form {
+  height: auto;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.username,
+.password {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.username input,
+.password input {
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.container button {
+  align-self: center;
+  width: 100px;
+  padding: 15px;
+  background-color: #833ae0;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.error {
+  color: red;
+  font-weight: bolder;
+}
+@media screen and (max-width: 600px) {
+  .container form {
+    width: 90%;
+    height: auto;
+  }
+}

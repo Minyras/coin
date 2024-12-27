@@ -1,0 +1,48 @@
+.searchForm {
+  width: 50%;
+  margin-bottom: 10px;
+  min-width: 500px;
+}
+
+.searchForm label {
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.input {
+  width: 50%;
+  padding: 10px;
+  border-radius: none;
+  margin-right: 20px;
+  min-width: 200px;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.searchForm button {
+  width: 100px;
+  padding: 11px;
+  background-color: #833ae0;
+  color: white;
+  border: none;
+}
+
+.error {
+  color: red;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+  .searchForm {
+    min-width: 0;
+    width: 100%;
+  }
+  .buttons {
+    gap: 20px;
+  }
+  .input {
+    width: 90%;
+  }
+}
